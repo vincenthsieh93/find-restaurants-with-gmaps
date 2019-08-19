@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <GoogleMaps />
+    <Restaurants />
   </div>
 </template>
 
 <script>
 import GoogleMaps from "./components/GoogleMaps.vue";
+import Restaurants from "./components/Restaurants";
 
 export default {
   name: "app",
   components: {
-    GoogleMaps
+    GoogleMaps,
+    Restaurants
   }
 };
 </script>
